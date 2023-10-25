@@ -1,0 +1,35 @@
+.containerTask{
+    width: 46rem;
+    height: 2.5625rem;
+    margin-top: 64px;
+    justify-self: center;
+}
+.minHeader{
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.minHeader div p{
+    color: var(--blue);
+    font-weight: bold;
+}
+.minHeader div:last-child p {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.outspan{
+    border-radius: 999px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 0.450rem;
+    
+    background-color: var(--gray-500);
+    color: var(--gray-200)
+    
+}
+span{
+   
+  padding: 3px;
+}

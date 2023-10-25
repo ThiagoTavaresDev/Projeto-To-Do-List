@@ -1,0 +1,42 @@
+.principalTask{
+    margin-top: 18px;
+    background-color: var(--gray-500);
+    height: 4.7rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    color: var(--gray-100);
+    padding-top: 20px;
+    width: 46rem;
+    justify-self: center;
+}
+.principalTask div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 5px 15px;
+   
+}
+.principalTask button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+.principalTask button img{
+    width: 1rem;
+}
+input[type='checkbox']{
+    display: none;
+
+}
+label img{
+    cursor: pointer;
+  
+}
+.lineFinished{
+    text-decoration: line-through;
+
+}
+p{
+    font-size: 1.1rem;
+
+}
